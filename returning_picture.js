@@ -7,7 +7,6 @@ const outputImagePath2 = 'output2.jpg';
 
 sharp(inputImagePath)
   .rotate(90)
-  .background
   .toFile(outputImagePath, (err, info) => {
     if (err) {
       console.error('Error saving image:', err);
